@@ -7,9 +7,9 @@ services:
     environment:
       - DATABASE_HOST=db
       - DATABASE_PORT=5432
-      - DATABASE_USER=your_user  # Match with POSTGRES_USER
-      - DATABASE_PASSWORD=your_password  # Match with POSTGRES_PASSWORD
-      - DATABASE_NAME=your_database  # Match with POSTGRES_DB
+      - DATABASE_USER=your_user  
+      - DATABASE_PASSWORD=your_password  
+      - DATABASE_NAME=your_database 
     depends_on:
       - db
 
